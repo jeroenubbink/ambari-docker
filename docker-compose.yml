@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  ambari-server:
+    image: jubbink/ambari-server
+    ports:
+      - 8080:8080
