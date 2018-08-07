@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  ambari-server:
+    build: ambari-server
+
+  ambari-agent-1:
+    build: ambari-agent
+
+  ambari-agent-2:
+    build: ambari-agent

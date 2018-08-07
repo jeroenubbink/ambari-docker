@@ -3,5 +3,17 @@ version: '3'
 services:
   ambari-server:
     image: jubbink/ambari-server
+    container_name: ambari-server
     ports:
       - 8080:8080
+    hostname: ambari-server
+
+  ambari-agent-1:
+    image: jubbink/ambari-agent
+    container_name: ambari-agent-1
+    hostname: ambari-agent-1
+
+  ambari-agent-2:
+    image: jubbink/ambari-agent
+    container_name: ambari-agent-2
+    hostname: ambari-agent-2
