@@ -8,7 +8,7 @@ and a simple example setup can be run using:
 $ docker-compose up
 ```
 
-Then pointing your browser to http://localhost:8080 and you should be able to register
+Then pointing your browser to http://localhost:8080 (login admin/admin) you should be able to register
 hosts *ambari-agent-1* and *ambari-agent-2*. You can add more hosts by adding them to
 `docker-compose.yml` or if you feel like it you can add some more advanced features by modifying
-the `Dockerfile`s inside `ambari-agent/` and `ambari-server/`
+the `Dockerfile` inside `ambari-agent/` and `ambari-server/`
